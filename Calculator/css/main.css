@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/423/597/desktop-wallpaper-finance-accounting.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+
+.calci{
+        text-align: center;
+        width: 100%;
+        font-size: xx-large;
+}
+input[type="button"]
+        {
+            background-color: rgb(255, 38, 0);
+            color: white;
+            border: solid black 2px;
+            width: 100%;
+            font-size: xx-large;
+        }
+input[type="text"]
+        {
+            background-color: white;
+            border: solid black 2px;
+            width: 100%;
+            font-size: xx-large;
+        }

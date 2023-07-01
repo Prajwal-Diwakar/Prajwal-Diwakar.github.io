@@ -1,0 +1,16 @@
+body{
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/09/clock-fantasy-mysterious-girl-time-4k_1536098152.jpg);
+    background-size: cover;
+}
+
+
+
+.row{
+    font-size: 2.5rem;
+}
+input{
+    font-size: x-large;
+}
+input[type="button" i]{
+    font-size:x-large;
+}
