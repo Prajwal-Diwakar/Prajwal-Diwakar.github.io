@@ -1,5 +1,0 @@
-function printCurrentPage()
-{
-window.print();
-}
-
