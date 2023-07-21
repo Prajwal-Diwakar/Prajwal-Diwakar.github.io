@@ -1,0 +1,100 @@
+// Custom styles
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff00b3;
+  }
+  
+  header {
+    /* Add your custom styles for the header here */
+  }
+  
+  nav {
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    padding: 8px 16px;
+    color: #fff;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #fa0101;
+  }
+  
+  // Add more custom styles as needed
+  .footer {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 770px;
+  }
+  .main-container {
+    flex: 1; /* Allow the main container to expand and push the footer to the bottom */
+    padding: 20px; /* Add some padding between the content and footer */
+  }
+  .container mt-5{
+
+    max-width: 400px; /* Set the maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; 
+  }
+
+  .car-images{
+    max-width: 400px; /* Set the maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  }
+
+  img{
+    display: block; /* Remove default image spacing */
+    width: 100%; /* Make the image fill its container */
+    border: 2px solid #ccc; /* Add a border around the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+    transition: transform 0.3s;
+  }
+
+ 
+  // Custom styles for the contact icons
+.social-icons {
+  /* Add space between the icons */
+  padding: 10px 5px;
+  align-items: center;
+  a {
+    margin-right: 20px; /* Adjust the right margin to set the spacing between icons */
+  }
+}
+
+.btn-primary {
+  // Regular styles for the button
+  background-color: #f5f5f5; /* Set the primary button background color */
+  border-color: #007bff; /* Set the primary button border color */
+  color: #fff; /* Set the text color */
+  
+  // Add hover effect
+  &:hover {
+    background-color: #000000; /* Set the button background color on hover */
+    border-color: #0056b3; /* Set the button border color on hover */
+  }
+  
+  // Add active effect
+  &:active {
+    background-color: #e7e7e7; /* Set the button background color when clicked */
+    border-color: #ececec; /* Set the button border color when clicked */
+  }
+  
+  // Add focus effect
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Set the focus outline color */
+  }
+}
