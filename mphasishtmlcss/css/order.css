@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    background-color: #0a5ffd;
+    color: #fff;
+    list-style: none;
+    padding: 10px 80px;
+   
+    display: flex;
+    justify-content:baseline;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 1% ;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  nav li {
+    padding: 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    block-size: 50% ;
+    
+  }
+  nav a:hover {
+    color: #000000; 
+    background-color: #27ff0a;
+  }
+
+  .order-container {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(25, 9, 250, 0.445);
+  }
+
+  h1 {
+    
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    
+  }
+
+  .Anbu{
+    border-bottom: 2px solid #000000;
+  } 
+  .Rolex{
+    border-bottom: 2px solid #000000;
+  } 
+
+
+  .customer-name {
+    font-style: italic; /* Apply italic style to the customer name */
+    font-size: 18px; /* Set font size for customer name */
+  }
+
+ 

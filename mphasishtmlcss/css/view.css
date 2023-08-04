@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #0a5ffd;
+    color: #fff;
+    list-style: none;
+    padding: 10px 80px;
+   
+    display: flex;
+    justify-content:baseline;
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 1% ;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  nav li {
+    padding: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #000000; 
+    background-color: #27ff0a;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .customer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .customer-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-style: italic; /* Apply font style to the links */
+  }
+  
+  .customer-menu img {
+    width: 25px; /* Set width for icons */
+    height: 25px; /* Set height for icons */
+  }
+  
+  #search-bar {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .customer-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  }
+  
+  .customer-card {
+    display: grid;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .customer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .customer-header h2 {
+    margin: 0;
+  }
+  
+  .customer-header a img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .customer-info {
+    padding: 10px;
+  }
+  
+  .customer-info p {
+    margin: 5px 0;
+  }
+  
+  .customer-info img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .customer-info a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .customer-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .customer-info {
+    padding: 10px;
+  }
+  
+  .customer-info p {
+    margin: 5px 0;
+  }
+  
+  .customer-info img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .customer-info a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .customer-info a:hover {
+    text-decoration: underline;
+  }
+  

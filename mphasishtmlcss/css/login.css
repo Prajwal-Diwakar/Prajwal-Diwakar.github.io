@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #0a5ffd;
+    color: #fff;
+    list-style: none;
+    padding: 10px 80px;
+   
+    display: flex;
+    justify-content:baseline;
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 1% ;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  nav li {
+    padding: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #000000; 
+    background-color: #27ff0a;
+  }
+/*login*/
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    color: #964B00; /* Brown color for labels */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green color for login button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Set margin for login icon (assuming you have a login icon image) */
+  .login-container {
+    text-align: center;
+  }
+  
+  .login-icon {
+    margin-bottom: 20px;
+  }
+  

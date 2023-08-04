@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #0a5ffd;
+    color: #fff;
+    list-style: none;
+    padding: 10px 80px;
+   
+    display: flex;
+    justify-content:baseline;
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 1% ;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  nav li {
+    padding: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #000000; 
+    background-color: #27ff0a;
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .about-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .details {
+    margin: 0; /* Remove default margin for ul */
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  em {
+    font-style: italic; /* Apply italic style to the address */
+  }
+  
+  /* Set margin for about icon (assuming you have an about icon image) */
+  .about-container {
+    text-align: center;
+  }
+  
+  .about-icon {
+    margin-bottom: 20px;
+  }
+  
